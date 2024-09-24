@@ -8,8 +8,8 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 bg-white ">
         
-        <h1 className="bold-52 lg:bold-88">BLessings</h1>
-        <h1 className='bold-40 lg:bold-70'> Event Planner</h1>
+        <h1 className="bold-52 lg:bold-88 text-red-600">EVENTRA</h1>
+        <h1 className='bold-40 lg:bold-70'>EVENT PLANNER</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           We strive to be a part of every milestone you celebrate, crafting unforgettable moments with ease and elegance. From weddings to corporate events, our dedicated team brings your vision to life. Let us create lasting memories, all through the convenience of a single app        
         </p>
@@ -31,13 +31,7 @@ const Hero = () => {
           
         </div>
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button 
-            type="button" 
-            title="Download App" 
-            variant="btn_green" 
-          />
-        </div>
+        
       </div>
 
       <div className="relative flex flex-1 items-start">

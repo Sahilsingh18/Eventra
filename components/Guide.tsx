@@ -11,7 +11,7 @@ const Guide = () => {
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Guide You to Easy Path</h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Embark on your event planning odyssey with confidence, knowing that Blessings has your back every step of the way. Say goodbye to the anxiety of getting lost and hello to the excitement of exploring hidden gems with loved ones. Together, let's turn your dreams into reality, whether it's a fairytale wedding or a corporate extravaganza.</p>
+          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Embark on your event planning odyssey with confidence, knowing that Blessings has your back every step of the way. Say goodbye to the anxiety of getting stressed out and hello to the excitement and enjoyment with Blessings. Together, let's turn your dreams into reality, whether it's a fairytale wedding or a corporate extravaganza.</p>
         </div>
       </div>
 

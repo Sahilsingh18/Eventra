@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Blessings',
+  title: 'EVENTRA',
   description: 'Way to your dream Event...',
 }
 
