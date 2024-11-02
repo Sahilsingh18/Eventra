@@ -28,6 +28,8 @@ module.exports = {
         yellow: {
           50: '#FEC601',
         },
+        // Add your custom color here
+        customYellow: '#ffffc5',
       },
       backgroundImage: {
         'bg-img-1': "url('/img-1.png')",
