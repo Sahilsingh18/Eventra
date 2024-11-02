@@ -1,13 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+/* Container for the entire page with background image */
+.container {
+  background-image: url('/abc.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  width: 100%;
+  min-height: 100vh; /* Make sure the container covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white; /* Adjust text color for contrast */
+}
+
 /* Style for the heading with Pacifico font */
 .heading {
-  font-family: 'Pacifico', cursive;
-  color: #b62819;  /* Apply the requested color */
-  font-size: 3rem;
-  margin-bottom: 40px;  /* Space between heading and buttons */
-  text-align: center;
-}
+  
+    font-family: 'Pacifico', cursive;
+    color: #6f0000; /* Red color */
+    font-size: 3rem;
+    margin-bottom: 40px; /* Space between heading and buttons */
+    text-align: center;
+    text-shadow: 
+      -1px -1px 0 #fff, /* Outline to the top-left */
+      1px -1px 0 #fff,  /* Outline to the top-right */
+      -1px 1px 0 #fff,  /* Outline to the bottom-left */
+      1px 1px 0 #fff;   /* Outline to the bottom-right */
+  }
 
 /* Container for the image buttons */
 .imageContainer {
