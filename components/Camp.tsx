@@ -53,9 +53,9 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="50+ Venues"
+          title=""
           subtitle="Great Location For Your Dream Wedding"
-          peopleJoined="Large team"
+          peopleJoined=""
         />
         <CampSite 
           backgroundImage="bg-bg-img-2"
